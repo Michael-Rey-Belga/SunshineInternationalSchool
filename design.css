@@ -1,0 +1,407 @@
+.navbar {
+    background: rgb(119, 2, 2);
+    color: white;
+    white-space: nowrap;
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(119, 2, 2);
+    margin: 0 0 10px 0;
+    padding: 5px 0 0 15px;
+}
+
+.titleee .bu {
+    padding: 0;
+    margin: 0;
+}
+
+.titleee {
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.navbar2 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.pages {
+    display: flex;
+
+    margin-left: 20px;
+}
+
+.nav-link {
+    display: block;
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 45px 10px 45px;
+    border-radius: 10px;
+}
+
+.nav-link:hover {
+    background-color: rgb(1, 1, 95);
+    background: -webkit-linear-gradient(gold, rgb(227, 161, 28));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bu {
+    margin-left: 115px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#acro {
+    font-size: 50px;
+    margin-right: auto;
+    text-decoration: none;
+    background: -webkit-linear-gradient(gold, rgb(227, 161, 28));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes leftright {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(1%);
+    }
+}
+
+.ticker {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+.announcement {
+    background-color: gold;
+    color: black;
+    width: 10%;
+    text-align: center;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding-top: 3px;
+}
+
+.full-container {
+    background: rgb(162, 2, 2);
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.full {
+    font-size: 20px;
+    color: gold;
+    animation: leftright 5s infinite linear;
+    display: inline-block;
+
+}
+
+.bruh {
+    background:white;
+}
+    
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.logo {
+    border-radius: 50px;
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: -5px 10px 10px 0;
+}
+
+.bg-container {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.bg-overlay {
+    position: inherit;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background:linear-gradient(to right,rgb(119, 2, 2), white,white,white) ;
+}
+
+.bg-img-container {
+    height: 100vw;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+
+.bg-img {
+    width: 1200px;
+    height: 1100px;
+    transform: translateX(800px) translateY(-100px);
+    object-fit: cover;
+    object-position: right;
+}
+
+.body-container {
+    position: relative;
+}
+
+#logoz {
+    height: auto;
+    width: 800px;
+    opacity: 0.2;
+    border: hidden;
+    float: right;
+    display: block;
+    position: relative;
+}
+
+#container3 {
+    background-color: transparent;
+    font-size: 40px;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 50px 0 0 260px;
+    border-color: rgb(119, 2, 2);
+    color: rgb(119, 2, 2);
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+#container3:hover {
+    background-color: rgb(119, 2, 2);
+    color: white;
+    text-decoration: none;
+}
+
+.merchhh {
+    height: 350x;
+    width: 350px;
+    border-style: outset;
+    padding: 10px;
+    border-color: gold;
+    margin: 20px 40px 40px 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.upper {
+    display: flex;
+    margin: 0 50px 0 60px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.merchhh:hover {
+    background-color: rgb(119, 2, 2);
+}
+
+.lower {
+    display: flex;
+    margin: 0 275px 0 285px;
+    justify-content: center;
+    align-items: center;
+}
+
+.taasbaba2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.exe {
+    height: 200px;
+    width: 200px;
+    border-style: outset;
+    padding: 10px;
+    border-color:rgb(119, 2, 2);
+    margin: 20px 40px 40px 40px;
+    border-radius: 110px;
+    cursor: pointer;
+}
+
+
+.exe:hover {
+    background-color: rgb(119, 2, 2);
+}
+
+.top {
+    display: flex;
+    padding: 20px 0 0 0;
+}
+
+.bottom {
+    display: flex;
+    margin: 0 100px 0 100px;
+    padding: 20px 30px 0 30px;
+}
+
+.footer2 {
+    background: rgb(119, 2, 2);
+    color: white;
+    white-space: nowrap;
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(119, 2, 2);
+    margin-top:550px;
+    position: relative;
+}
+
+.footer3 {
+    background: rgb(119, 2, 2);
+    color: white;
+    white-space: nowrap;
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(119, 2, 2);
+    margin-top:20px;
+    position: relative;
+}
+
+.footer1 {
+    background: rgb(119, 2, 2);
+    color: white;
+    white-space: nowrap;
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(119, 2, 2);
+    margin-top: 50px;
+    position: relative;
+}
+
+.footer4 {
+    background: rgb(119, 2, 2);
+    color: white;
+    white-space: nowrap;
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(119, 2, 2);
+    margin-top: 20px;
+    position: relative;
+}
+
+.laban {
+    padding: 8px 0 0 0;
+}
+
+.logo5 {
+    border-radius: 50px;
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+#est {
+    color: gold;
+}
+
+.body-container {
+    animation: kunwareMayTransition 1s;
+}
+
+@keyframes kunwareMayTransition {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.fb-page {
+    margin: 0 0 0 -5px;
+    transform: translateX(100px) translateY(25px);
+    background: rgb(119, 2, 2);
+    padding:20px;
+    border-radius: 10px;
+}
+
+.ano,
+.naman {
+    font-size: 30px;
+    text-decoration: none;
+    background: -webkit-linear-gradient(rgb(119, 2, 2),rgb(119, 2, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Bebas Neue';
+    margin: 30px auto 0 80px;
+    text-align: center;
+    width: 690px;
+    font-weight: bold;
+}
+
+#ba,
+.tong {
+    color: white;
+    width: 750px;
+    margin: 30px 0 30px 15px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: rgb(119, 2, 2);
+    border-color: gold;
+    border-style: solid;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ayokona {
+    font-size: 70px;
+    text-decoration: none;
+    background: -webkit-linear-gradient(rgb(119, 2, 2),rgb(119, 2, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Bebas Neue';
+    margin: 30px auto 30px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ayokona2 {
+    font-size: 70px;
+    text-decoration: none;
+    background: -webkit-linear-gradient(rgb(119, 2, 2),rgb(119, 2, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Bebas Neue';
+    margin: 0 auto 50px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
